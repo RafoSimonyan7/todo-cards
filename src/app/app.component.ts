@@ -47,4 +47,9 @@ export class AppComponent {
       alert("There isn\'t card for delete")
     }
   }
+
+  resetPage() {
+    window.location.reload()
+  }
+
 }
